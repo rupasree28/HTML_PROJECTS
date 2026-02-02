@@ -1,0 +1,110 @@
+ html {
+        scroll-behavior: smooth;
+     background-image: linear-gradient(to left top, #bf64ff, #d76cf2, #e876e6, #f483dc, #fb92d5, #fc94d5, #fe96d5, #ff98d5, #ff8ddb, #ff82e3, #ff77ed, #ff6cf8);
+ }
+  table  {
+
+    box-shadow: 0px 0px 30px rgb(253, 3, 103);
+   
+    border-radius: 20px;
+     border:1px solid black;
+}
+
+.nav{
+  border: px solid rgb(0, 0, 0);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(222, 60, 125);
+  color: rgb(255, 254, 254);
+  box-shadow: 2px 2px 16px rgb(242, 233, 240);
+  text-shadow: 0px 0px 10px #ffffff;
+  
+ 
+   padding: 15px;
+   display: inline-block;
+
+}
+
+.nav:hover{
+  color:black;
+  background-color:rgb(252, 0, 42);
+ 
+  transition: 1s;
+  
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+
+#h3{
+  font-family:monospace;
+
+}
+
+#h3:hover{
+  color:rgb(154, 19, 154);
+  transition: 5ms;
+}
+
+.headerr{
+  border: px solid black;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #d173f3;
+  margin: 20px;
+  display: inline-block;
+  transition: 3px;
+  text-shadow:0px 0px 10px rgb(216, 210, 217);
+  box-shadow: 0px 0px 20px rgb(215, 3, 238);
+
+ 
+}
+.headerr:hover{
+   width: 140px; 
+  height: 20px;
+  background-color: rgb(250, 0, 42);
+  color: aliceblue;
+
+}
+.intro{
+  padding: 30px;
+  color: rgb(18, 87, 5);
+  transition: 3ms;
+
+
+
+}
+
+.intro:hover{
+  transform: scale(1.03);
+  transition: transform 150ms ease;
+}
+
+/* New flex-based stats container to replace the table */
+.stats-container{
+  display: inline-flex;
+   gap: 20px;
+   padding: 10px 0;
+ 
+  justify-content: center;
+  
+ 
+}
+.stat{
+  flex: 1 1 0;
+  text-align: center;
+  padding: 24px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 6px 18px rgba(253,3,103,0.08);
+}
+
+/* IDs are available for per-item customization */
+#stat-projects{ }
+#stat-html{ }
+#stat-possibilities{ }

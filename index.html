@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master HTML with TAP Academy</title>
-    <style>
-         html {
-        scroll-behavior: smooth;
-      }
-    </style>
+
+    
 </head>
 
 <body>
@@ -19,24 +20,25 @@
         <tr>
             <td width="35%">
                 <img src="logo.png" alt="TAP Academy Logo" width="90">
-                <br><br>
-                <h3>Website built by T RUPASREE✨</h3>
+                <br>
+                <h3 id="h3">Website built by T RUPASREE✨</h3>
             </td>
 
             <td align="center">
-                <a href="#about">About</a>
-                &nbsp; | &nbsp;
-                <a href="#whyhtml">Why HTML?</a>
-                &nbsp; | &nbsp;
-                <a href="#projects">Projects</a>
-                &nbsp; | &nbsp;
-                <a href="#trainer">Trainer</a>
-                &nbsp; | &nbsp;
-                <a href="#website">Website</a>
-                &nbsp; | &nbsp;
-                <a href="#location">Location</a>
-                &nbsp; | &nbsp;
-                <a href="#playlist">Playlist</a>
+                <a class="nav" href="#about">About</a>
+               
+    
+                <a class="nav" href="#whyhtml">Why HTML?</a>
+               
+                <a class="nav" href="#projects">Projects</a>
+                
+                <a class="nav" href="#trainer">Trainer</a>
+               
+                <a class="nav" href="#website">Website</a>
+               
+                <a class="nav" href="#location">Location</a>
+               
+                <a class="nav"href="#playlist">Playlist</a>
             </td>
         </tr>
     </table>
@@ -54,32 +56,33 @@
         </p>
 
         <br>
+       
 
-        <a href="#projects">[ 👍 View My Projects ]</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#whyhtml">[ Why Learn HTML? ]</a>
+        <a href="#projects" class="headerr">View My Projects</a>
+        
+        <a href="#whyhtml" class="headerr">Why Learn HTML</a>
+        
 
         <br><br><br>
 
-        <!-- STATS SECTION -->
-        <table border="1" width="70%" cellpadding="25" cellspacing="0">
-            <tr>
-                <td align="center" width="33%">
-                    <h2>6+</h2>
-                    <h4>PROJECTS BUILT</h4>
-                </td>
+        <!-- STATS SECTION (converted to divs for easier customization) -->
+        <section id="stats" class="stats-container">
+            <div id="stat-projects" class="stat intro">
+                <h2>6+</h2>
+                <h4>PROJECTS BUILT</h4>
+            </div>
 
-                <td align="center" width="33%">
-                    <h2>100%</h2>
-                    <h4>PURE HTML</h4>
-                </td>
+            <div id="stat-html" class="stat intro">
+                <h2>100%</h2>
+                <h4>PURE HTML</h4>
+            </div>
 
-                <td align="center" width="33%">
-                    <h2>&infin;</h2>
-                    <h4>POSSIBILITIES</h4>
-                </td>
-            </tr>
-        </table>
+            <div id="stat-possibilities" class="stat intro">
+                <h2>&amp;infin;</h2>
+                <h4>POSSIBILITIES</h4>
+            </div>
+        </section>
+       
     </center>
 
     <br><br><br><br>
