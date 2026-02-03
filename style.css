@@ -85,26 +85,21 @@ a{
   transition: transform 150ms ease;
 }
 
-/* New flex-based stats container to replace the table */
-.stats-container{
-  display: inline-flex;
-   gap: 20px;
-   padding: 10px 0;
- 
+#stats{
+  padding: 20px;
+  color: rgb(87, 5, 87);
+  transition: 3ms;
+  display: flex;
   justify-content: center;
-  
- 
-}
-.stat{
-  flex: 1 1 0;
-  text-align: center;
-  padding: 24px;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.04);
-  box-shadow: 0 6px 18px rgba(253,3,103,0.08);
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid purple;
 }
 
-/* IDs are available for per-item customization */
-#stat-projects{ }
-#stat-html{ }
-#stat-possibilities{ }
+.stats intro{
+  width: 100px;
+  height:200px;
+  margin: 10px;
+  border: 2px solid black;
+
+}
