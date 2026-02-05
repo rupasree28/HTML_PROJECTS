@@ -1,0 +1,147 @@
+/* ================= UNIVERSAL ================= */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Product Sans', 'Segoe UI', sans-serif;
+}
+
+/* ================= HTML ================= */
+html{
+    scroll-behavior:smooth;
+}
+
+/* ================= BODY MAIN GRADIENT ================= */
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:#e6f1ff;
+    padding:30px;
+}
+
+/* ================= GLASS BASE ================= */
+.nav-links,
+ul,
+ol,
+dl{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius:18px;
+    padding:22px;
+    margin-top:22px;
+}
+
+/* ================= MAIN TITLE ================= */
+#top{
+    text-align:center;
+    font-size:44px;
+    font-weight:700;
+    margin-bottom:20px;
+
+    background: linear-gradient(90deg,#ff9a9e,#fad0c4,#fad0c4,#fbc2eb,#a6c1ee);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* ================= HEADINGS ================= */
+h2{
+    font-size:30px;
+    margin-top:25px;
+    margin-bottom:10px;
+
+    background: linear-gradient(45deg,#00dbde,#fc00ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+h3,h4{
+    color:#9be7ff;
+    margin-top:18px;
+}
+
+/* ================= PARAGRAPH ================= */
+p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:12px;
+    color:#e3f2fd;
+}
+
+/* ================= NAVIGATION ================= */
+.nav-links{
+    width:100%;
+    text-align:center;
+}
+
+.nav-items{
+    display:inline-block;
+    margin:10px;
+}
+
+/* ================= NAV BUTTON ================= */
+.anc{
+    text-decoration:none;
+    padding:11px 22px;
+    border-radius:30px;
+    font-weight:600;
+    letter-spacing:0.5px;
+
+    color:white;
+    background: linear-gradient(45deg,#ff6a00,#ee0979);
+
+    transition: all 0.35s ease;
+}
+
+/* ================= HOVER EFFECT ================= */
+.anc:hover{
+    transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(45deg,#00f260,#0575e6);
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* ================= LIST ITEMS ================= */
+li{
+    margin:8px 0;
+    color:#d1ecff;
+}
+
+/* ================= LINKS ================= */
+a[target="_blank"]{
+    color:#4df3ff;
+    font-weight:600;
+}
+
+/* ================= HR ================= */
+hr{
+    border:none;
+    height:2px;
+    background: linear-gradient(to right,#ff00cc,#3333ff);
+    margin:35px 0;
+}
+
+/* ================= IMAGES ================= */
+img{
+    vertical-align:middle;
+}
+
+/* ================= BACK TO TOP ================= */
+a[href="#top"]{
+    display:inline-block;
+    padding:12px 20px;
+    margin-top:25px;
+    border-radius:25px;
+
+    background: linear-gradient(45deg,#f7971e,#ffd200);
+    color:black;
+    font-weight:700;
+}
+
+/* ================= SMALL GLASS CARD EFFECT ================= */
+h2 + p,
+h2 + ul{
+    background: rgba(255,255,255,0.05);
+    padding:15px;
+    border-radius:14px;
+}
